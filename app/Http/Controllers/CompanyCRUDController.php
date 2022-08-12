@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\company; //เพิ่มเอง
+use App\Models\company; //เพิ่มเอง เป็นการเรียกใช้งานตารางข้อมูลที่ชื่อว่า company ได้สร้างไว้ที่ phpMyAdmin
 use Illuminate\Http\Request;
 
 class CompanyCRUDController extends Controller
